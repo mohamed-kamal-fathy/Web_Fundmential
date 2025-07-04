@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body bgcolor="#FFC0CB">
+    <form action="login.html" target="_blank">
+      <table
+        align="center"
+        border="10"
+        style="background-color: aliceblue"
+        cellpadding="2"
+        cellspacing="5"
+        width="500"
+        bordercolor="red"
+      >
+        <!-- <caption>Registration Form </caption><br><br> -->
+        <tr>
+          <th colspan="4" style="font-size: 30px; border: none">
+            Registration Form
+          </th>
+        </tr>
+        <tr>
+          <td>First Name</td>
+          <td>
+            <input type="text" name="First_name" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>Last Name</td>
+          <td>
+            <input type="text" name="Last_name" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>User Name</td>
+          <td>
+            <input type="email" name="email" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>Pass</td>
+          <td>
+            <input type="password" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>Track</td>
+          <td>
+            <select name="track">
+              <option value="SD" selected>SD</option>
+              <option value="CS">CS</option>
+              <option value="IS">IS</option>
+              <option value="AI">AI</option>
+            </select>
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td rowspan="2">Gender</td>
+          <td><input type="radio" name="check_gender" value="m" /> Male</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="check_gender" value="f" />Female</td>
+        </tr>
+        <br />
+        <tr>
+          <td rowspan="2">Favorites</td>
+          <td style="border: none">
+            <input type="checkbox" name="fav" value="Football" />Football
+            <input type="checkbox" name="fav" value="Basketball" />Basketball
+            <input type="checkbox" name="fav" value="Games" />Games
+          </td>
+        </tr>
+        <tr>
+          <td style="border: none">
+            <input type="checkbox" name="fav" value="Reading" />Reading
+            <input type="checkbox" name="fav" value="Swimming" />Swimming
+            <input type="checkbox" name="fav" value="Travel" />Travel
+          </td>
+        </tr>
+        <tr>
+          <td>Description</td>
+          <td>
+            <textarea
+              name="Description"
+              style="width: 235px; height: 72px"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
